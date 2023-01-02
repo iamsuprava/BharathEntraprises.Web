@@ -9,7 +9,8 @@ function Banner() {
     { bannerOpen && (
       <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60">
         <div className="bg-slate-800 text-slate-50 text-sm p-3 md:rounded shadow-lg flex justify-between">
-          <div className='text-slate-500 inline-flex'><a className="font-medium hover:underline text-slate-50" href="https://www.sponsorgenix.in" target="_blank" rel="noreferrer">Message us<span class="hidden sm:inline"> on Gmail</span></a> <span className="italic px-1.5">or</span> <a className="font-medium hover:underline text-emerald-400" href="https://sponsorgenix.in/" target="_blank" rel="noreferrer">WhatsApp</a></div>
+          <div className='text-slate-500 inline-flex'><a className="font-medium hover:underline text-slate-50" href="https://mail.google.com/mail/?view=cm&fs=1&to=bharathbabuks99
+          @yahoo.co.in" target="_blank" rel="noreferrer">Message us<span class="hidden sm:inline"> on Gmail</span></a> <span className="italic px-1.5">or</span> <a className="font-medium hover:underline text-emerald-400" href="https://wa.me/919845253700?text=Hii" target="_blank" rel="noreferrer">WhatsApp</a></div>
           <button className="text-slate-500 hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false) }>
             <span className="sr-only">Close</span>
             <svg className="w-4 h-4 shrink-0 fill-current" viewBox="0 0 16 16">
